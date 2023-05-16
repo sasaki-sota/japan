@@ -6,7 +6,9 @@ interface HomeProps {}
 const Home: NextPage<HomeProps> = () => {
   return (
     <>
-      <Japan />
+      <div className="w-96 h-96">
+        <Japan />
+      </div>
     </>
   );
 };
